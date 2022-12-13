@@ -1,0 +1,5 @@
+<launch>
+    <node name="transporting_task" pkg="FURG-fase4" type="transporting_task_fixed_bases.py" output="screen" />
+    <node name="block_detector" pkg="FURG-fase4" type="block_detector_v2.py" output="screen" />
+    <node name="base_detector" pkg="FURG-fase1" type="base_detector_node" output="screen" />
+</launch>

@@ -1,0 +1,3 @@
+<launch>    
+    <node name="base_detector" pkg="FURG-fase1" type="base_detector_node" output="screen" />
+</launch>

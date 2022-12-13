@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="FURG-fase3" type="inspection_task.py" name="inspection_task" output="screen" />
+  <node pkg="FURG-fase3" type="inspection_task_node" name="inspection_task_node" output="screen" />
+  <node pkg="FURG-fase1" type="base_detector_node" name="base_detector_node" output="screen" />
+</launch>

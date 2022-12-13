@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="FURG-fase2" type="sensors_detector.py" name="sensors_detector" output="screen" />
+  <node pkg="FURG-fase2" type="sensing_task.py" name="sensing_task" output="screen" />
+</launch>
