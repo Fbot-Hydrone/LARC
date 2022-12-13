@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="inspection_task" type="inspection_task.py" name="inspection_task" output="screen" />
+  <node pkg="inspection_task" type="inspection_task_node" name="inspection_task_node" output="screen" />
+  <include file="$(find mrs_optic_flow)/launch/optic_flow.launch" ></include>
+</launch>

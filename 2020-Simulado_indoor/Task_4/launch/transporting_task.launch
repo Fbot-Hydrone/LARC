@@ -1,0 +1,4 @@
+<launch>    
+    <node name="transporting_task" pkg="transporting_task" type="transporting_task.py" output="screen" />
+    <node name="block_detector" pkg="transporting_task" type="block_detector.py" output="screen" />
+</launch>
